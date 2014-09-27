@@ -3,7 +3,7 @@ appium-project
 
 This is the repository of learning appium for native app and mobile web. Will document notes in this repository.
 
-** Appium Ruby Console
+## Appium Ruby Console
 It's really useful for development and debug. To open the ARC, just create a `appium.txt` with the following contents
 ```
 [caps]
@@ -14,7 +14,7 @@ versionNumber = "7.1"
 ```
 Then in the terminal run `arc` (make sure you have appium running in another terminal), you should get it run.
 
-** Appium commands
+## Appium commands
 - `page` command prints a list of elements that are of interest.
 - `find` command in the appium ruby gem will search for a partial case insensitive match on a visible element with name, hint, label, or value containing the target value.
 - `text 'UICatalog'` finds a static text that contains UICatalog.
